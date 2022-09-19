@@ -15,6 +15,10 @@ export default function BasicTextFields() {
       noValidate
       autoComplete="off"
     >
+      
+      <TextField type="number"/>
+      
+      
       <TextField type="number" onWheel={(e) => disablWheel(e)} />
 
       <TextField
