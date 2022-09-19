@@ -30,7 +30,7 @@ export default function BasicTextFields() {
         label="Standard"
         variant="standard"
         type="number"
-        onWheel={(e) => e.target.blur()}
+        onWheel={(e:any) => e.target.blur()}
       />
     </Box>
   );
